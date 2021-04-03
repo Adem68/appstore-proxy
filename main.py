@@ -24,5 +24,5 @@ async def proxy(app_id: int):
 @app.get("/")
 async def main():
     return {
-        "message": "Hello my friend"
+        "message": "404 page not found"
     }
